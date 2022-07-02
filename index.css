@@ -224,7 +224,7 @@ html {
     border-radius: 10px;
 }
 
-.p80 {
+.p60 {
     background: green;
     background: #8360c3;
     /* fallback for old browsers */
@@ -233,12 +233,12 @@ html {
     background: linear-gradient(to right, #2ebf91, #8360c3);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     height: 8px;
-    width: 80%;
+    width: 60%;
     border-radius: 10px;
 }
 
-.p90 {
-    width: 90%;
+.p40 {
+    width: 40%;
     height: 8px;
     background: green;
     background: #8360c3;
@@ -250,8 +250,19 @@ html {
     border-radius: 10px;
 }
 
-.p70 {
-    width: 70%;
+.p35 {
+    width: 35%;
+    height: 8px;
+    background: #8360c3;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2ebf91, #8360c3);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2ebf91, #8360c3);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border-radius: 10px;
+}
+.p30 {
+    width: 30%;
     height: 8px;
     background: #8360c3;
     /* fallback for old browsers */
